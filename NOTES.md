@@ -12,12 +12,17 @@
 
 - `error TS6231: Could not resolve the path '' with the extensions: '.ts', '.tsx', '.d.ts'`
   https://stackoverflow.com/questions/68970633/error-ts6231-could-not-resolve-the-path-with-the-extensions-ts-tsx
-  `tried` tsc --project tsconfig.json
+  `tried` tsc --init
 
 -
 
 -
 
 ### References
+
+- `ts-jest` docs
+  https://kulshekhar.github.io/ts-jest/docs/getting-started/paths-mapping/
+
+#### Others
 
 https://medium.com/swlh/jest-with-typescript-446ea996cc68
