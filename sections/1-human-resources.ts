@@ -27,10 +27,10 @@ const createPoll = (polls:string[])=>{
 
     return polls.reduce((acc, cur) => {
         if (!acc[cur]) {
-            acc[cur] = 0;
+            acc[cur] = 0
         }
-        acc[cur]++;
-        return acc;
+        acc[cur]+=1
+        return acc
     }, {});
 }
 

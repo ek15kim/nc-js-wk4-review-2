@@ -25,4 +25,6 @@
 
 #### Others
 
-https://medium.com/swlh/jest-with-typescript-446ea996cc68
+- ES6 Class Mocks https://jestjs.io/docs/es6-class-mocks
+
+- https://medium.com/swlh/jest-with-typescript-446ea996cc68

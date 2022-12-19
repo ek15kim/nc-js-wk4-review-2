@@ -29,7 +29,6 @@ describe("removeAgents", () => {
 
 })
 
-
 describe("makeNameTags", () => {
     const input = [{
         title: "Mr",
@@ -74,7 +73,6 @@ describe("makeNameTags", () => {
         ])
     })
 })
-
 
 describe("createPoll", () => {
     const input = ["cake", "biscuit", "biscuit"]
