@@ -1,8 +1,14 @@
 
-const deepEntries = () => { };
+const deepKeys = (obj, array) => {
+    let result = array || []
+    for (let key in obj) {
+        result.push(key);
+        if (typeof obj[key] === "object") deepKeys(obj[key], result)
+    }
+    return result;
+};
 
 const deeplyEquals = () => { };
 
-const flat = () => { };
 
-module.exports = { deeplyEquals, flat, deepEntries };
+module.exports = { deepKeys };

@@ -175,9 +175,9 @@ anatUser.pots.holiday;
 ❗️ `Push your work to Github and submit it before moving on` ❗️
 ❗️ `Commit and push your work to github then use /nchelp review to submit` ❗️
 
-## Section 3 - Using Closures
+## ✅ Section 3 - Using Closures
 
-### 1 - `makeStringDivider`
+### ✅1 - `makeStringDivider`
 
 Write a higher-order function called `makeStringDivider`.
 
@@ -207,7 +207,7 @@ divideStringInto4s("the quick, brown fox"); // ['the ', 'quic', 'k, b', 'rown', 
 divideStringInto4s("goodbye"); // ['good', 'bye']
 ```
 
-### 2 - `makeIteratorFunc`
+### ✅ 2 - `makeIteratorFunc`
 
 Write a higher-order function called `makeIteratorFunc`.
 
