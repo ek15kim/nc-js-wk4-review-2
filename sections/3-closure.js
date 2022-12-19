@@ -10,8 +10,14 @@ const makeStringDivider = (strLength) => (string) => {
     return newArray;
 }
 
-const makeIteratorFunc = (array) => () => {
+const makeIteratorFunc = (array, func) => {
+    let index = 0;
+    return () => {
+        if (index >= array.length) return;
+        return func(array[index++])
 
+    }
 }
+
 
 module.exports = { makeStringDivider, makeIteratorFunc };

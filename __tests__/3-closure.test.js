@@ -38,6 +38,7 @@ describe('makeStringDivider()', () => {
   });
 });
 
+
 describe('makeIteratorFunc()', () => {
   test('returns a new function', () => {
     const iterativeFunc = makeIteratorFunc();
