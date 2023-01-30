@@ -19,6 +19,7 @@ describe('classifyAnimals', () => {
         const animalType = "mammal"
         // any better testing idea to test the type is object / array
         expect(typeof animals).toBe('object')
+        expect(Array.isArray(animals)).toBe(true)
         expect(typeof animalType).toBe('string')
     });
     test("returns an array", () => {
@@ -162,6 +163,7 @@ describe("createAnimalTally", () => {
     test("returns an array containing a tally object counting the animal type: ['tiger']", () => {
         const animalList = ['tiger']
         const createAnimalTallyFunc = createAnimalTally(animalList)
+        expect(Array.isArray(animalList)).toBe(true)
         expect(typeof createAnimalTallyFunc).toBe("object")
         expect(createAnimalTallyFunc).toEqual({ tiger: 1 })
     })
@@ -188,7 +190,6 @@ describe("createAnimalTally", () => {
             tiger: 71,
             koala: 82
         })
-
     })
 
 })
