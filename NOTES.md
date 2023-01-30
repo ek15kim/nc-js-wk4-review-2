@@ -14,7 +14,10 @@
   https://stackoverflow.com/questions/68970633/error-ts6231-could-not-resolve-the-path-with-the-extensions-ts-tsx
   `tried` tsc --init
 
--
+### `WIL` jest Matchers practiced
+
+`to Throw`
+https://jestjs.io/docs/expect#tothrowerror
 
 -
 

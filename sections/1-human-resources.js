@@ -1,6 +1,5 @@
 // MAKE IT PURE 
 
-import { StringifyOptions } from "querystring"
 
 const removeAgents = (employees) => employees.filter(employee => employee.profession !== 'mole')
 

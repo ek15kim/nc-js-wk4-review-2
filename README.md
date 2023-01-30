@@ -249,9 +249,9 @@ shoutingIterator(); // returns undefined
 ❗️ `Push your work to Github and submit it before moving on` ❗️
 ❗️ `Commit and push your work to github then use /nchelp review to submit` ❗️
 
-## Section 4 - Recursion
+## ✅ Section 4 - Recursion
 
-### 1 - `deepKeys`
+### ✅ 1 - `deepKeys`
 
 Implement a function `deepKeys` that will take an object as its argument and go through that object, including any nested objects, and collect all of the keys into a single array.
 

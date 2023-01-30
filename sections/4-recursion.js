@@ -8,7 +8,17 @@ const deepKeys = (obj, array) => {
     return result;
 };
 
-const deeplyEquals = () => { };
+const deepRoute = (array, string) => {
+    let route = ""
+    array.forEach((element, index) => {
+        if (element === string) route = index.toString();
+        if (Array.isArray(element)) {
+            deepRoute(element, string)
+        }
+    }
+    )
+    return route;
+};
 
 
-module.exports = { deepKeys };
+module.exports = { deepKeys, deepRoute };
