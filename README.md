@@ -11,6 +11,7 @@ At the end of each section please push your work up to github and send us a link
 **tip** If you forgot to fork and cloned the Northcoders repo directly you can fork it afterwards and then change the remote by running `git remote set-url origin your_repo_link_here`.
 
 ## ✅ Section 1 human-resources (Array Methods)
+## ✅ Section 1 At-The-Zoo (Array Methods)
 
 For each of these challenges, be sure to **use an appropriate array-method** and **demonstrate your understanding of TDD**.
 
