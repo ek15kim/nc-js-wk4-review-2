@@ -5,7 +5,7 @@ const {
     createZooDisplays,
     createAnimalTally
 } = require('../sections/1-at-the-zoo.js');
-
+const NC_ARK = require("../data/zoo-data.js")
 
 describe('classifyAnimals', () => {
 
@@ -171,6 +171,24 @@ describe("createAnimalTally", () => {
         const createAnimalTallyFunc = createAnimalTally(animalList)
         expect(typeof createAnimalTallyFunc).toBe("object")
         expect(createAnimalTallyFunc).toEqual({ tiger: 1, parrot: 2 })
+    })
+
+    test("takes an imported data and returns the expected", () => {
+
+        expect(typeof NC_ARK).toBe("object")
+        expect(createAnimalTally(NC_ARK)).toEqual({
+            platypus: 69,
+            lion: 85,
+            seal: 80,
+            eagle: 74,
+            elephant: 67,
+            parrot: 83,
+            chimp: 106,
+            snake: 83,
+            tiger: 71,
+            koala: 82
+        })
+
     })
 
 })
