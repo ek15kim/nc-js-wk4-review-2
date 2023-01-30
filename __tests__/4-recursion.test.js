@@ -20,4 +20,20 @@ describe('deepKeys', () => {
     })
 });
 
-describe('deepRoute', () => { });
+describe('deepRoute', () => {
+    test("takes an array and a string and returns '' when a string is not in the array", () => {
+        const inputArray = ["a", "b", "c"]
+        expect(deepRoute(inputArray, "z")).toBe("")
+    })
+    test("takes an array and a string and returns a number", () => {
+        const inputArray = ["a", "b", "c"]
+        expect(typeof deepRoute(inputArray, "c")).toBe("string")
+    })
+    test("returns a route string to a givent element in the array", () => {
+        expect(deepRoute(["a", "b", "c"], "c")).toBe('2')
+    })
+    test("returns 2 times with a route string to a givent element", () => {
+        expect(deepRoute(["a", "b", ["c", "d"], "e"], "c")).toBe('2')
+    })
+
+});
